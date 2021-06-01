@@ -1,0 +1,52 @@
+body {
+	background-color: #fff;
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 8px;
+	font-family: "Montserrat";
+	margin: 15px;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+
+/*** NAVIGATION BAR ***/
+.navbar-light .navbar-brand {
+	color: rgba(0, 0, 0, .55);
+	font-family: "Ubuntu";
+	font-size: 2rem;
+	padding-left: 10px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-item {
+	font-size: 1.04rem;
+	margin: 0 .9rem 0 .9rem;
+	padding-bottom: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	padding-bottom: 0;
+    border-bottom: 2px solid;
+}
+
+.ham-button {
+	margin-right: 10px;
+}
+/*** PROFILE SECTION ***/
+.profile {
+	margin: 7% 7%;
+}
+
+.profile-img img {
+	border-radius: 10px;
+	display: block;
+	height: 300px;
+    margin: auto;
+}
+
+.profile-text {
+	color: rgb(80, 80, 30);
+	margin: auto 0;
+	text-align: left;
+}
