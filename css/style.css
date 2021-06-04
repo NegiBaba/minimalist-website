@@ -22,6 +22,186 @@ span {
 	color: #ff7417;
 }
 
+
+/*** LOADER ***/
+.loader-container {
+	background-color: white;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.loader {
+	position: relative;
+	top: 45%;
+}
+
+svg.tea {
+	--secondary: #33406f;
+}
+
+svg.tea #teabag {
+	transform-origin: top center;
+	transform: rotate(3deg);
+	animation: swing 2s infinite;
+}
+
+svg.tea #steamL {
+	stroke-dasharray: 13;
+	stroke-dashoffset: 13;
+	animation: steamLarge 2s infinite;
+}
+
+svg.tea #steamR {
+	stroke-dasharray: 9;
+	stroke-dashoffset: 9;
+	animation: steamSmall 2s infinite;
+}
+
+@-moz-keyframes swing {
+	50% {
+		transform: rotate(-3deg);
+	}
+}
+
+@-webkit-keyframes swing {
+	50% {
+		transform: rotate(-3deg);
+	}
+}
+
+@-o-keyframes swing {
+	50% {
+		transform: rotate(-3deg);
+	}
+}
+
+@keyframes swing {
+	50% {
+		transform: rotate(-3deg);
+	}
+}
+
+@-moz-keyframes steamLarge {
+	0% {
+		stroke-dashoffset: 13;
+		opacity: 0.6;
+	}
+
+	100% {
+		stroke-dashoffset: 39;
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes steamLarge {
+	0% {
+		stroke-dashoffset: 13;
+		opacity: 0.6;
+	}
+
+	100% {
+		stroke-dashoffset: 39;
+		opacity: 0;
+	}
+}
+
+@-o-keyframes steamLarge {
+	0% {
+		stroke-dashoffset: 13;
+		opacity: 0.6;
+	}
+
+	100% {
+		stroke-dashoffset: 39;
+		opacity: 0;
+	}
+}
+
+@keyframes steamLarge {
+	0% {
+		stroke-dashoffset: 13;
+		opacity: 0.6;
+	}
+
+	100% {
+		stroke-dashoffset: 39;
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes steamSmall {
+	10% {
+		stroke-dashoffset: 9;
+		opacity: 0.6;
+	}
+
+	80% {
+		stroke-dashoffset: 27;
+		opacity: 0;
+	}
+
+	100% {
+		stroke-dashoffset: 27;
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes steamSmall {
+	10% {
+		stroke-dashoffset: 9;
+		opacity: 0.6;
+	}
+
+	80% {
+		stroke-dashoffset: 27;
+		opacity: 0;
+	}
+
+	100% {
+		stroke-dashoffset: 27;
+		opacity: 0;
+	}
+}
+
+@-o-keyframes steamSmall {
+	10% {
+		opacity: 0.6;
+		stroke-dashoffset: 9;
+	}
+
+	80% {
+		opacity: 0;
+		stroke-dashoffset: 27;
+	}
+
+	100% {
+		opacity: 0;
+		stroke-dashoffset: 27;
+	}
+}
+
+@keyframes steamSmall {
+	10% {
+		opacity: 0.6;
+		stroke-dashoffset: 9;
+	}
+
+	80% {
+		opacity: 0;
+		stroke-dashoffset: 27;
+	}
+
+	100% {
+		opacity: 0;
+		stroke-dashoffset: 27;
+	}
+}
+
 /*** NAVIGATION BAR ***/
 .navbar-light .navbar-brand {
 	color: rgba(0, 0, 0, .55);
@@ -44,6 +224,7 @@ span {
 .ham-button {
 	margin-right: 10px;
 }
+
 /*** PROFILE SECTION ***/
 .profile {
 	margin: 7% 7%;
@@ -54,7 +235,7 @@ span {
 	display: block;
 	height: 300px;
 	image-rendering: -webkit-optimize-contrast;
-    margin: auto;
+	margin: auto;
 }
 
 .profile-text {
