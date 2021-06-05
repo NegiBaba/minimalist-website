@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
 	<!-- Loader Section -->
 	<div class="loader-container">
 		<div class="loader">
@@ -28,7 +27,6 @@
 			</svg>
 		</div>
 	</div>
-
 	<!-- Navigation bar section -->
 	<nav class="navbar navbar-expand-sm navbar-light flex-row">
 		<a href class="navbar-brand d-flex w-50 mr-0">Portfolio</a>
@@ -72,16 +70,69 @@
 	<section class="about">
 		<div class="row">
 			<h2 class="about-heading">About Me</h2>
-			<p class = "about-text">
+			<p class="about-text">
 				<strong>Hi!</strong> My Name is <span>Piyush</span> and I am a <span>Computer Science and Engineering</span> Student in LPU.
 				I'm a very competetive person who loves <span>competetive Programming & web development</span>.
-				Apart from web I'm also skilled at <span>C/C++, Java and Python</span>. 
+				Apart from web I'm also skilled at <span>C/C++, Java and Python</span>.
 			</p>
 		</div>
 	</section>
 	<hr>
-	
+	<!-- Projects Section -->
+	<div id="carousel-with-desc" class="carousel slide project" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carousel-with-desc" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carousel-with-desc" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carousel-with-desc" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="row">
+					<div class="col-md-6 project-img">
+						<img src="imgs/profile.jpg" class="project-img" alt="Animated Sorting Algorithms">
+					</div>
+					<div class="col-md-6 project-desc">
+						<h5>Animated Sorting Algorithm</h5>
+						<p>In this project using pygame and p5.js, working of different sorting algorithms such as Insertion Sort, Bubble Sort and Quick sort etc is animated to understand these algorithms in a better and easy way.</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="row">
+					<div class="col-md-6 project-img">
+						<img src="imgs/profile.jpg" class="project-img" alt="Animated Sorting Algorithms">
+					</div>
+					<div class="col-md-6 project-desc">
+						<h5>Second Project Heading</h5>
+						<p>Second project Description here.</p>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="row">
+					<div class="col-md-6 project-img">
+						<img src="imgs/profile.jpg" class="project-img" alt="Animated Sorting Algorithms">
+					</div>
+					<div class="col-md-6 project-desc">
+						<h5>Third Project Heading</h5>
+						<p>Third Project description here.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carousel-with-desc" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carousel-with-desc" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+	<!-- JQuery Google cdn -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!-- Bootstrap JQuery cdn -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 
