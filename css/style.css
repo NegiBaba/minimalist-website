@@ -14,17 +14,29 @@ h5  {
 	margin-bottom: 10px;
 	text-align: center;
 }
+
 hr {
 	background-color: white;
 	border: none;
 	border-top: 10px dotted;
 	height: 0;
-	margin: 160px auto 120px auto;
+	margin: 100px auto 70px auto;
 	width: 10%;
 }
 
 span {
 	color: #ff7417;
+}
+
+input {
+	height: 30px;
+}
+
+input,
+textarea {
+	display: block;
+	margin: 30px auto;
+	width: 30%;
 }
 
 
@@ -291,4 +303,84 @@ svg.tea #steamR {
 .project-desc {
 	line-height: 2rem;
 	margin: auto auto;
+}
+
+
+.carousel-indicators [data-bs-target] {
+	background-color: brown;
+}
+
+/*** CONTACT ME ***/
+.contact-section {
+	text-align: center;
+}
+
+.contact-heading {
+	color: #34a853;
+	font-size: 2.3rem;
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+
+
+.submit-btn {
+	background-color: #08a0e9;
+	border: 0;
+	border-radius: 20px;
+	color: white;
+	height: 40px;
+	width: 15%;
+}
+
+.submit-btn:hover {
+	color: #d3d3d3;
+}
+
+
+/*** FOOTER SECTION ***/
+footer {
+	color: #536878;
+	padding: 30px;
+}
+
+
+.footer-brand {
+	font-family: "Ubuntu";
+	text-align: center;
+}
+
+
+.footer-para {
+	text-align: center;
+}
+
+p::after {
+	content: "- Dio";
+	color: red;
+}
+
+.footer-links {
+	list-style: none;
+}
+
+.footer-links li {
+	margin-left: 20%;
+}
+
+.final-hr {
+	background-color: white;
+	border: none;
+	border-top: 2px solid black;
+	margin: 30px auto 20px auto;
+	height: 0;
+	width: 60%;
+	opacity: 1;
+}
+
+.link-icons-container {
+	width: 100%;
+}
+.link-icons {
+	text-align: center;
+	font-size: 1.6rem;
 }
