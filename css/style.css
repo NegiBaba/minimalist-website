@@ -354,9 +354,9 @@ footer {
 	text-align: center;
 }
 
-p::after {
-	content: "- Dio";
+p.footer-para::after {
 	color: red;
+	content: "- Dio";
 }
 
 .footer-links {
@@ -371,16 +371,27 @@ p::after {
 	background-color: white;
 	border: none;
 	border-top: 2px solid black;
-	margin: 30px auto 20px auto;
 	height: 0;
-	width: 60%;
+	margin: 30px auto 20px auto;
 	opacity: 1;
+	width: 60%;
 }
 
 .link-icons-container {
 	width: 100%;
 }
+
 .link-icons {
-	text-align: center;
 	font-size: 1.6rem;
+	text-align: center;
+}
+
+a {
+	color: grey;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
 }
