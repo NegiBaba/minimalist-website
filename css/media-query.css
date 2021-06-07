@@ -8,8 +8,12 @@
 	}
 
 	/* Profile section */
+	.profile {
+		margin-top: 100px;
+	}
+
 	.profile-img img {
-		/* The only thing that has changes in this section is the dimensions of image*/
+		/* The only thing that has changes in this section is the dimensions of image + margin at top*/
 		border-radius: 10px;
 		display: block;
 		height: 250px;
@@ -19,8 +23,11 @@
 
 	.profile-text {
 		/* in this section the text size is changed and its alignment */
-		color: rgb(80, 80, 30);
 		margin-top: 20px;
 		text-align: center;
+	}
+
+	.profile-text p {
+		font-size: .9rem;
 	}
 }
