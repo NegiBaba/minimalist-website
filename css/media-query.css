@@ -9,8 +9,8 @@
 
 	/* Horizontle rule section */
 	hr {
-		margin: 50px auto 50px auto;
-		width: 30%;
+		margin: 40px auto 40px auto;
+		width: 40%;
 	}
 
 	/* Profile section */
@@ -35,5 +35,19 @@
 
 	.profile-text p {
 		font-size: .9rem;
+	}
+
+	/* About me section */
+	.about {
+		color: rgb(100, 100, 100);
+		margin: 0 auto 0 auto;
+		text-align: center;
+		width: 90%;
+	}
+
+	.about-heading {
+		color: #08a0e9;
+		font-size: 1.5rem;
+		margin-bottom: 60px;
 	}
 }
