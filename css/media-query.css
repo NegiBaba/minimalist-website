@@ -7,6 +7,12 @@
 		width: 13%;
 	}
 
+	/* Horizontle rule section */
+	hr {
+		margin: 50px auto 50px auto;
+		width: 30%;
+	}
+
 	/* Profile section */
 	.profile {
 		margin-top: 100px;
