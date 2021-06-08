@@ -87,9 +87,48 @@
 	.project-desc h5 {
 		font-size: 1.6rem;
 	}
+
 	.project-desc p {
 		line-height: 1.8rem;
 		margin-top: 30px;
 		text-align: justify;
+	}
+
+	/* contact section */
+	input {
+		height: 30px;
+	}
+
+	input,
+	textarea {
+		display: block;
+		margin: 20px auto;
+		width: 70%;
+	}
+
+	.submit-btn {
+		background-color: #08a0e9;
+		border: 0;
+		border-radius: 20px;
+		color: white;
+		height: 40px;
+		width: 40%;
+	}
+
+	.submit-btn:hover {
+		color: #d3d3d3;
+	}
+
+	/* footer section */
+	.footer-brand {
+		display: none;
+	}
+
+	.footer-para {
+		font-size: .85rem;
+	}
+
+	.footer-links {
+		display: none;
 	}
 }
