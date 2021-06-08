@@ -1,6 +1,6 @@
 # minimalist-website
 
-In this project I'm going to build another portfolio of mine in the minimalit design.
+A minimalist version of my portfolio, this website is front end only using html, css, js and bootstrap for responsiveness.
 
-
-Most probably going to be my portfolio website ((version 3))
+*interesting thing about favicon and third project img*
+The favicon is a game character "wither" from minecraft and the bookshelf design is also from minecraft(my favourite game).
