@@ -306,10 +306,6 @@ svg.tea #steamR {
 }
 
 
-.carousel-indicators [data-bs-target] {
-	background-color: brown;
-}
-
 /*** CONTACT ME ***/
 .contact-section {
 	text-align: center;

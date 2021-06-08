@@ -9,7 +9,7 @@
 
 	/* Horizontle rule section */
 	hr {
-		margin: 40px auto 40px auto;
+		margin: 60px auto 40px auto;
 		width: 40%;
 	}
 
@@ -48,7 +48,8 @@
 	.about-heading {
 		color: #08a0e9;
 		font-size: 1.5rem;
-		margin-bottom: 60px;
+		margin: 40px 0;
+		padding: 0;
 	}
 
 	.about-text {
@@ -62,7 +63,7 @@
 	.project {
 		border: none;
 		height: 550px;
-		margin: 0 auto;
+		margin: 20px auto;
 		width: 95%;
 	}
 
