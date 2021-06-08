@@ -60,9 +60,10 @@
 
 	/* Project section */
 	.project {
-		border: 2px solid black;
+		border: none;
 		margin: 0 auto;
-		height: 400px;
+		height: 550px;
+		width: 95%;
 	}
 
 	.project-img {
@@ -72,7 +73,8 @@
 	}
 
 	.project-desc {
-		font-size: .7rem;
+		font-size: .9rem;
 		line-height: 1.5;
+		margin-top: 20px;
 	}
 }
