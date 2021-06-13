@@ -1,0 +1,134 @@
+@media (max-width: 480px) {
+
+	/* loader section */
+	svg {
+		/* the loader svg has been made at bit bigger for mobile devies */
+		height: auto;
+		width: 13%;
+	}
+
+	/* Horizontle rule section */
+	hr {
+		margin: 60px auto 40px auto;
+		width: 40%;
+	}
+
+	/* Profile section */
+	.profile {
+		margin-top: 100px;
+	}
+
+	.profile-img img {
+		/* The only thing that has changes in this section is the dimensions of image + margin at top*/
+		border-radius: 10px;
+		display: block;
+		height: 250px;
+		image-rendering: -webkit-optimize-contrast;
+		margin: auto;
+	}
+
+	.profile-text {
+		/* in this section the text size is changed and its alignment */
+		margin-top: 20px;
+		text-align: center;
+	}
+
+	.profile-text p {
+		font-size: .9rem;
+	}
+
+	/* About me section */
+	.about {
+		color: rgb(100, 100, 100);
+		margin: 0 auto 0 auto;
+		text-align: center;
+		width: 90%;
+	}
+
+	.about-heading {
+		color: #08a0e9;
+		font-size: 1.5rem;
+		margin: 40px 0;
+		padding: 0;
+	}
+
+	.about-text {
+		font-size: .9rem;
+		line-height: 2rem;
+		margin: 0 auto 0 auto;
+		width: 90%;
+	}
+
+	/* Project section */
+	.project {
+		border: none;
+		height: 550px;
+		margin: 20px auto;
+		width: 95%;
+	}
+
+	.project-img {
+		border-radius: 10px;
+		height: auto;
+		width: 100%;
+	}
+
+	.project-desc {
+		font-size: .9rem;
+		line-height: 1.5;
+		margin-top: 20px;
+	}
+
+	.carousel-control-next-icon,
+	.carousel-control-prev-icon {
+		display: none;
+	}
+
+	.project-desc h5 {
+		font-size: 1.6rem;
+	}
+
+	.project-desc p {
+		line-height: 1.8rem;
+		margin-top: 30px;
+		text-align: justify;
+	}
+
+	/* contact section */
+	input {
+		height: 30px;
+	}
+
+	input,
+	textarea {
+		display: block;
+		margin: 20px auto;
+		width: 70%;
+	}
+
+	.submit-btn {
+		background-color: #08a0e9;
+		border: 0;
+		border-radius: 20px;
+		color: white;
+		height: 40px;
+		width: 40%;
+	}
+
+	.submit-btn:hover {
+		color: #d3d3d3;
+	}
+
+	/* footer section */
+	.footer-brand {
+		display: none;
+	}
+
+	.footer-para {
+		font-size: .85rem;
+	}
+
+	.footer-links {
+		display: none;
+	}
+}

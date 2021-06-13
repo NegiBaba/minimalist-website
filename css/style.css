@@ -1,0 +1,393 @@
+body {
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 8px;
+	font-family: "Montserrat";
+	margin: 15px;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h5  {
+	color: #ff7417;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+hr {
+	background-color: white;
+	border: none;
+	border-top: 10px dotted;
+	height: 0;
+	margin: 100px auto 70px auto;
+	width: 10%;
+}
+
+span {
+	color: #ff7417;
+}
+
+input {
+	height: 30px;
+}
+
+input,
+textarea {
+	display: block;
+	margin: 30px auto;
+	width: 30%;
+}
+
+
+/*** LOADER ***/
+.loader-container {
+	background-color: white;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.loader {
+	position: relative;
+	top: 45%;
+}
+
+svg.tea {
+	--secondary: #33406f;
+}
+
+svg.tea #teabag {
+	transform-origin: top center;
+	transform: rotate(3deg);
+	animation: swing 2s infinite;
+}
+
+svg.tea #steamL {
+	stroke-dasharray: 13;
+	stroke-dashoffset: 13;
+	animation: steamLarge 2s infinite;
+}
+
+svg.tea #steamR {
+	stroke-dasharray: 9;
+	stroke-dashoffset: 9;
+	animation: steamSmall 2s infinite;
+}
+
+@-moz-keyframes swing {
+	50% {
+		transform: rotate(-3deg);
+	}
+}
+
+@-webkit-keyframes swing {
+	50% {
+		transform: rotate(-3deg);
+	}
+}
+
+@-o-keyframes swing {
+	50% {
+		transform: rotate(-3deg);
+	}
+}
+
+@keyframes swing {
+	50% {
+		transform: rotate(-3deg);
+	}
+}
+
+@-moz-keyframes steamLarge {
+	0% {
+		stroke-dashoffset: 13;
+		opacity: 0.6;
+	}
+
+	100% {
+		stroke-dashoffset: 39;
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes steamLarge {
+	0% {
+		stroke-dashoffset: 13;
+		opacity: 0.6;
+	}
+
+	100% {
+		stroke-dashoffset: 39;
+		opacity: 0;
+	}
+}
+
+@-o-keyframes steamLarge {
+	0% {
+		stroke-dashoffset: 13;
+		opacity: 0.6;
+	}
+
+	100% {
+		stroke-dashoffset: 39;
+		opacity: 0;
+	}
+}
+
+@keyframes steamLarge {
+	0% {
+		stroke-dashoffset: 13;
+		opacity: 0.6;
+	}
+
+	100% {
+		stroke-dashoffset: 39;
+		opacity: 0;
+	}
+}
+
+@-moz-keyframes steamSmall {
+	10% {
+		stroke-dashoffset: 9;
+		opacity: 0.6;
+	}
+
+	80% {
+		stroke-dashoffset: 27;
+		opacity: 0;
+	}
+
+	100% {
+		stroke-dashoffset: 27;
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes steamSmall {
+	10% {
+		stroke-dashoffset: 9;
+		opacity: 0.6;
+	}
+
+	80% {
+		stroke-dashoffset: 27;
+		opacity: 0;
+	}
+
+	100% {
+		stroke-dashoffset: 27;
+		opacity: 0;
+	}
+}
+
+@-o-keyframes steamSmall {
+	10% {
+		opacity: 0.6;
+		stroke-dashoffset: 9;
+	}
+
+	80% {
+		opacity: 0;
+		stroke-dashoffset: 27;
+	}
+
+	100% {
+		opacity: 0;
+		stroke-dashoffset: 27;
+	}
+}
+
+@keyframes steamSmall {
+	10% {
+		opacity: 0.6;
+		stroke-dashoffset: 9;
+	}
+
+	80% {
+		opacity: 0;
+		stroke-dashoffset: 27;
+	}
+
+	100% {
+		opacity: 0;
+		stroke-dashoffset: 27;
+	}
+}
+
+/*** NAVIGATION BAR ***/
+.navbar-light .navbar-brand {
+	color: rgba(0, 0, 0, .55);
+	font-family: "Ubuntu";
+	font-size: 2rem;
+	padding-left: 20px;
+}
+
+.navbar-expand-sm .navbar-nav .nav-item {
+	font-size: 1.04rem;
+	margin: 0 .9rem 0 .9rem;
+	padding-bottom: 2px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	border-bottom: 2px solid;
+	padding-bottom: 0;
+}
+
+.ham-button {
+	margin-right: 10px;
+}
+
+/*** PROFILE SECTION ***/
+.profile {
+	margin: 7% 7%;
+}
+
+.profile-img img {
+	border-radius: 10px;
+	display: block;
+	height: 300px;
+	image-rendering: -webkit-optimize-contrast;
+	margin: auto;
+}
+
+.profile-text {
+	color: rgb(80, 80, 30);
+	margin: auto 0;
+	text-align: left;
+}
+
+/*** ABOUT SECTION ***/
+.about {
+	/* background-color: #edecec;  placed here for experiment pupose*/
+	/* border: 2px solid #edecec;
+	border-radius: 10px; */
+	color: rgb(100, 100, 100);
+	margin: 60px auto 0 auto;
+	text-align: center;
+	width: 70%;
+}
+
+.about-heading {
+	color: #08a0e9;
+	font-size: 2.3rem;
+	margin-bottom: 60px;
+	padding-top: 30px;
+}
+
+.about-text {
+	font-size: 1.1rem;
+	line-height: 2.5rem;
+	margin: 0 auto 0 auto;
+	width: 70%;
+}
+
+/*** PROJECT SETCTION ***/
+.project {
+	border: 2px solid #08a0e9;
+	border-radius: 10px;
+	margin: 0 auto;
+	padding: 20px;
+	width: 80%;
+}
+
+.project-img {
+	border-radius: 10px;
+	height: 500px;
+}
+
+.project-desc {
+	line-height: 2rem;
+	margin: auto auto;
+}
+
+
+/*** CONTACT ME ***/
+.contact-section {
+	text-align: center;
+}
+
+.contact-heading {
+	color: #34a853;
+	font-size: 2.3rem;
+	margin-bottom: 30px;
+	padding-top: 10px;
+}
+
+
+.submit-btn {
+	background-color: #08a0e9;
+	border: 0;
+	border-radius: 20px;
+	color: white;
+	height: 40px;
+	width: 15%;
+}
+
+.submit-btn:hover {
+	color: #d3d3d3;
+}
+
+
+/*** FOOTER SECTION ***/
+footer {
+	color: #536878;
+	padding: 30px;
+}
+
+
+.footer-brand {
+	font-family: "Ubuntu";
+	text-align: center;
+}
+
+
+.footer-para {
+	text-align: center;
+}
+
+p.footer-para::after {
+	color: red;
+	content: "- Dio";
+}
+
+.footer-links {
+	list-style: none;
+}
+
+.footer-links li {
+	margin-left: 20%;
+}
+
+.final-hr {
+	background-color: white;
+	border: none;
+	border-top: 2px solid black;
+	height: 0;
+	margin: 30px auto 20px auto;
+	opacity: 1;
+	width: 60%;
+}
+
+.link-icons-container {
+	width: 100%;
+}
+
+.link-icons {
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+a {
+	color: grey;
+	padding: 10px 10px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: grey;
+}
