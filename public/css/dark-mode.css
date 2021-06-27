@@ -1,0 +1,55 @@
+@media (prefers-color-scheme: dark) {
+    * {
+        --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    }
+
+    body {
+        background-color: rgb(12, 13, 14);
+        border-color: rgb(119, 111, 98);
+    }
+
+    hr {
+        background-color: rgb(12, 13, 14);
+        border-color: #62605D;
+    }
+
+    input,
+    textarea {
+        background-color: rgb(12, 13, 14);
+        color: #e8e6e3;
+    }
+
+    input::placeholder,
+    textarea::placeholder  {
+        color: #b2aba1;
+    }
+
+    .navbar-light .navbar-brand {
+        color: rgb(209, 205, 199);
+    }
+
+    .navbar-light .navbar-brand:focus,
+    .navbar-light .navbar-brand:hover {
+        color: rgba(232, 230, 227, 0.9);
+    }
+
+    .navbar-expand-sm .navbar-nav .nav-link {
+        color: #878786;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .profile-text {
+        color: #c3b090;
+    }
+
+    .project-desc {
+        color: #d1cdc7;
+    }
+
+    .contact-heading {
+        color: #1e6230;
+    }
+}
