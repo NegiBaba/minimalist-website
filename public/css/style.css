@@ -14,7 +14,6 @@ h5  {
 	margin-bottom: 10px;
 	text-align: center;
 }
-
 hr {
 	background-color: white;
 	border: none;
@@ -391,4 +390,13 @@ footer {
 .link-icons {
 	font-size: 1.6rem;
 	text-align: center;
+}
+
+.js--about-section {
+	animation-duration: 2s;
+	opacity: 0;
+}
+
+.js--about-section.animate__animated {
+	opacity: 1;
 }
